@@ -10,7 +10,7 @@ function initPage() {
 
 function eventsListener() {
   $('.btn-lg').click(onSubmitMail)
- 
+
 }
 
 function renderProjects() {
@@ -58,9 +58,14 @@ function renderModal(projId) {
   })
 }
 
-function onSubmitMail(email) {
-  const $elEmail = $('.container.contact')
-    $elEmail.find('.email').val()
-    console.log( $elEmail.find('.email').val());
-  // submitMail(email)
+function onSubmitMail() {
+  const $elContact = $('.contact')
+  const email = $elContact.find('[name=email]').val()
+  const body = $elContact.find('[name=message]').val()
+  const fullMail = submitMail(email, body)
+    window.open(fullMail)
+ 
+  $elContact.find('[name=email]').val('')
+  $elContact.find('[name=message]').val('') 
+
 }

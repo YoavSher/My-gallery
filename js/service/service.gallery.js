@@ -55,3 +55,9 @@ function getDate(projId) {
     var fullDate = new Date(miliSec).toString().split(' ').slice(0, 5).join(' ')
     return fullDate
 }
+
+function submitMail(email,body){
+    // console.log('email:', email)
+    const fullMail = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=SUBJECT&body=${body}`
+    return fullMail
+}
