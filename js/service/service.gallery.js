@@ -8,7 +8,7 @@ const gProjs = [
         desc: "Try to reveal all the numbers without landing on a mine",
         url: 'https://yoavsher.github.io/Mine-Sweeper',
         publishedAt: Date.now(),
-        img: 'img/my-photos/minesweeper.jpg',
+        img: "img/my-photos/minesweeper.jpg",
         labels: ["Matrixes", "Moues events", "Recursion", "Neighbors"]
     },
     {
@@ -18,7 +18,7 @@ const gProjs = [
         desc: "Eat all the food and don't let the ghosts catch you",
         url: 'https://yoavsher.github.io/PacMan',
         publishedAt: Date.now(),
-        img: 'img/my-photos/pacman.jpg',
+        img: "img/my-photos/pacman.jpg",
         labels: ["Matrixes", "Keyboard events", "Neighbors"]
     },
     {
@@ -28,7 +28,7 @@ const gProjs = [
         desc: "Try to reveal all the numbers without landing on a mine",
         url: 'https://yoavsher.github.io/Guess-who',
         publishedAt: Date.now(),
-        img: 'img/my-photos/guesswho.jpg',
+        img: "img/my-photos/guesswho.jpg",
         labels: ["Decision tree", "Jquery", "Bootstrap"]
     },
     {
@@ -38,7 +38,7 @@ const gProjs = [
         desc: "You can add, update and remove books",
         url: 'https://yoavsher.github.io/Book-store',
         publishedAt: Date.now(),
-        img: 'img/my-photos/bookstr.jpg',
+        img: "img/my-photos/bookstr.jpg",
         labels: ["CRUDL", "Filter", "Sorting"]
     },
     {
@@ -48,7 +48,7 @@ const gProjs = [
         desc: "Play Chess, move the tools around",
         url: 'https://yoavsher.github.io/Chess',
         publishedAt: Date.now(),
-        img: 'img/my-photos/chess.jpg',
+        img: "img/my-photos/chess.jpg",
         labels: ["Matrix", "Neighbors loop"]
     }
 ]
