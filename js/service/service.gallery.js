@@ -6,9 +6,9 @@ const gProjs = [
         name: "Mine-Sweeper",
         title: "My first sprint",
         desc: "Try to reveal all the numbers without landing on a mine",
-        url: 'https://yoavsher.github.io/Mine-Sweeper/',
+        url: 'https://yoavsher.github.io/Mine-Sweeper',
         publishedAt: Date.now(),
-        img: 'img/my-photos/minesweeper.jpg',
+        img: "img/my-photos/minesweeper.JPG",
         labels: ["Matrixes", "Moues events", "Recursion", "Neighbors"]
     },
     {
@@ -16,9 +16,9 @@ const gProjs = [
         name: "Pac-man",
         title: "Just Pacman",
         desc: "Eat all the food and don't let the ghosts catch you",
-        url: 'https://yoavsher.github.io/PacMan/',
+        url: 'https://yoavsher.github.io/PacMan',
         publishedAt: Date.now(),
-        img: 'img/my-photos/pacman.jpg',
+        img: "img/my-photos/pacman.JPG",
         labels: ["Matrixes", "Keyboard events", "Neighbors"]
     },
     {
@@ -26,9 +26,9 @@ const gProjs = [
         name: "Guess who",
         title: "Trying Jquery and Bootstrap",
         desc: "Try to reveal all the numbers without landing on a mine",
-        url: 'https://yoavsher.github.io/Guess-who/',
+        url: 'https://yoavsher.github.io/Guess-who',
         publishedAt: Date.now(),
-        img: 'img/my-photos/guesswho.jpg',
+        img: "img/my-photos/guesswho.JPG",
         labels: ["Decision tree", "Jquery", "Bootstrap"]
     },
     {
@@ -36,9 +36,9 @@ const gProjs = [
         name: "Book Store",
         title: "Learning CRUDL",
         desc: "You can add, update and remove books",
-        url: 'https://yoavsher.github.io/Book-store/',
+        url: 'https://yoavsher.github.io/Book-store',
         publishedAt: Date.now(),
-        img: 'img/my-photos/bookstr.jpg',
+        img: "img/my-photos/bookstr.JPG",
         labels: ["CRUDL", "Filter", "Sorting"]
     },
     {
@@ -46,9 +46,9 @@ const gProjs = [
         name: "Chess",
         title: "Experiencing neighbors loop",
         desc: "Play Chess, move the tools around",
-        url: 'https://yoavsher.github.io/Chess/',
+        url: 'https://yoavsher.github.io/Chess',
         publishedAt: Date.now(),
-        img: 'img/my-photos/chess.jpg',
+        img: "img/my-photos/chess.JPG",
         labels: ["Matrix", "Neighbors loop"]
     }
 ]
