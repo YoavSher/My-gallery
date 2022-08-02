@@ -24,7 +24,7 @@ function renderProjects() {
             <i class="fa fa-plus fa-3x"></i>
           </div>
         </div>
-        <img class="img-fluid my-pic" src=${proj.img} alt="">
+        <img class="img-fluid my-pic" src="${proj.img}" alt="">
       </a>
       <div class="portfolio-caption">
         <h4>${proj.name}</h4>
@@ -37,12 +37,12 @@ function renderProjects() {
   $('.row.grid').html(strHtml)
   $('.row.grid').find('.portfolio-link').on('click', function () {
     const projId = $(this).closest('article').data('id')
-    renderModal(projId)
+    showModal(projId)
   })
 }
 
 
-function renderModal(projId) {
+function showModal(projId) {
 
   var proj = getProjById(projId)
   const $elModal = $('.modal-body')
@@ -62,10 +62,11 @@ function onSubmitMail() {
   const $elContact = $('.contact')
   const email = $elContact.find('[name=email]').val()
   const body = $elContact.find('[name=message]').val()
-  const fullMail = submitMail(email, body)
-    window.open(fullMail)
- 
-  $elContact.find('[name=email]').val('')
-  $elContact.find('[name=message]').val('') 
+  const subject = $elContact.find('[name=name]').val()
+  const fullMail = submitMail(email, body, subject)
+  window.open(fullMail)
 
+  $elContact.find('[name=email]').val('')
+  $elContact.find('[name=message]').val('')
+  $elContact.find('[name=name]').val('')
 }
