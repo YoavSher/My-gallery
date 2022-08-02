@@ -48,7 +48,7 @@ const gProjs = [
         desc: "Play Chess, move the tools around",
         url: 'https://yoavsher.github.io/Chess',
         publishedAt: Date.now(),
-        img: "img/my-photos/chess.jpg",
+        img: `"img/my-photos/chess.jpg"`,
         labels: ["Matrix", "Neighbors loop"]
     }
 ]
